@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+@font-face{
+
+	font-family: 'Noto Sans', sans-serif;
+	src: url(../fonts/NotoSans.ttf);
+
+}
+body
+{
+	font-family: 'Noto Sans', sans-serif;
+	margin: 0;
+}
+a
+{
+	text-decoration: none;
+}
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6, p
+{
+	margin: 5px;
+}
+.container
+{
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.p-60
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+
+/*-----------------------Header--------------------------*/
+
+.header_top
+{
+	background-color: #26ACE3;
+	padding: 15px 0;
+}
+.left_info
+{
+	color: #fff;
+	float: left;
+	font-size: 14px;
+}
+.left_info ul li
+{
+	display: inline-block;
+	margin-right: 30px;
+}
+.left_info ul li span:first-child
+{
+	margin-right: 7px;
+}
+.social_info
+{
+	text-align: right;
+}
+.social_info a
+{
+	color: #fff;
+	margin: 0 7px;
+	transition: .2s;
+}
+.social_info a:hover
+{
+	color: #f2b604;
+}
+
+.logo_header
+{
+	padding: 40px 0;
+	border-bottom: 1px #ccc solid;
+	display: inline-block;
+    width: 100%;
+}
+.logo
+{
+	float: left;
+}
+.contact_info
+{
+	float: right;
+}
+.contact_info ul li
+{
+	display: inline-block;
+	margin-right: 40px;
+	padding-left: 40px;
+	position: relative;
+}
+.cont_icon
+{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 25px;
+	color: #26ace3;
+}
+.get_btn
+{
+	padding: 17px 25px;
+	background-color: #F2B604;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	word-spacing: 5px;
+	display: block;
+	position: relative;
+}
+
+.contact_info ul li:last-child
+{
+	vertical-align: top;
+	padding-left: 0px;
+	margin-right: 0px;
+}
+.get_text
+{
+	position: relative;
+	z-index: 2;
+}
+.get_btn:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color:#26ace3;
+	border-radius: 30px;
+	transform: scale(1);
+	transition: .3s;
+}
+.get_btn:hover:before
+{
+	transform: scale(0);
+}
+
+/*-------------------------Menu-------------------------*/
+
+.main_menu li
+{
+	display: inline-block;
+	position: relative;
+}
+.main_menu li a
+{
+	display: block;
+	padding: 20px 30px 25px;
+	color: #424242;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+}
+.main_menu > li:first-child > a
+{
+	padding-left: 0;
+}
+.main_menu li.active a, .main_menu li:hover > a
+{
+	color: #26ace3;
+}
+.sub_menu
+{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 210px;
+	background-color: #fff;
+	border-top: 3px #26ace3 solid;
+	box-shadow: 3px 3px 4px rgba(0,0,0,.2);
+	transform: scaleY(0);
+	transition: .5s;
+	transform-origin: top;
+}
+.sub_menu li
+{
+	display: block;
+	border-bottom: 1px #eee solid;
+	transition: .5s;
+}
+.sub_menu li a
+{
+	padding: 15px 10px; 
+	transition: .5s;
+}
+.sub_menu li:last-child
+{
+	border-bottom: none;
+}
+.sub_menu li:hover
+{
+	background-color: #26ace3;
+	
+}
+.sub_menu li:hover a
+{
+	color: #fff;
+	transform: translateX(10px);
+}
+
+.main_menu li:hover .sub_menu
+{
+	transform: scaleY(1);
+}
+
+
+/*---------------------Slider------------------------*/
+.slider_img
+{
+	position: relative;
+}
+.slider_img img
+{
+	width: 100%;
+}
+
+.slider_text
+{
+	position: absolute;
+	top: 50%;
+	left: 100px;
+	transform: translateY(-50%);
+	color: #fff;
+}
+.s_text
+{
+	
+	letter-spacing: 1px;
+	position: relative;
+}
+.s_text:before
+{
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	width: 145px;
+	height: 3px;
+	background-color: #F2B604;
+}
+.large_text
+{
+	margin: 50px 0 30px;
+	font-size: 45px
+}
+.help_text
+{
+	font-weight: normal;
+}
+.slide_btn
+{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+
+/*------------------------Services--------------------------*/
+
+.service_main
+{
+	display: inline-block;
+	width: 100%;
+}
+.single_service
+{
+	width: calc(25% - 20px);
+	margin: 10px;
+	float: left;
+}
+.service_icon
+{
+	height: 98px;
+	width: 78px;
+	background-image: url(../image/shape.png);
+	text-align: center;
+	line-height: 110px;
+	transition: .3s;
+}
+.ser_ico
+{
+	font-size: 35px;
+	color: #fff;
+
+}
+.single_service:hover .service_icon
+{
+	background-image: url(../image/shape2.png);
+}
+
+.service_heading
+{
+	padding: 25px 0;
+	border-bottom: 1px #ccc solid; 
+	margin-bottom: 20px;
+}
+.service_heading>h3
+{
+	transition: .3s;
+}
+.service_heading > p
+{
+	font-size: 13px;
+	color: #999;
+	font-style: italic;
+}
+.single_service:hover .service_heading>h3
+{
+	color: #F2B604;
+}
+.service_content > p
+{
+	color: #7f7f7f;
+	font-size: 13px;
+	line-height: 2;
+}
