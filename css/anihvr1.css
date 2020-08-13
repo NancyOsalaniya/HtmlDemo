@@ -1,0 +1,39 @@
+.main_img
+{
+	height:300px;
+	width:300px;
+	background-color:gray;
+	margin:160px auto;
+	position:relative;
+	overflow:hidden;
+}
+.main_img img
+{
+	height:100%;
+	width:100%;
+}
+.layer
+{
+	position:absolute;
+	top:0;
+	left:-50%;
+	height:100%;
+	width:100%;
+	background-color:rgba(0,0,0,.6);
+	transition:1s;
+	
+}
+.main_img:hover .layer
+{
+	left:-100%;
+	
+}
+.effect_1
+{
+	
+	right:-100%;
+}
+.main_img:hover .effect_1
+{
+	right:50%;
+}

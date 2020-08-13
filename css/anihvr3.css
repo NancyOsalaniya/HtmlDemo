@@ -1,0 +1,284 @@
+.main_img2
+{
+	height:200px;
+	width:200px;
+	/*background-color:gray;*/
+	margin:15% 50%;
+	position:relative;
+	//overflow:hidden;
+}
+.main_img2 img
+{
+	height:100%;
+	width:100%;
+	/*position:absolute;
+	top:0;
+	left:0;*/
+	border-radius:40px;
+	
+}
+.layer
+{
+
+	position:absolute;
+	/*top:0;
+	left:-50%;*/
+	height:100%;
+	width:100%;
+	/*background-color:rgba(0,0,0,.6);*/
+	transition:1s;
+	border-radius:50px;
+	animation-play-state: paused;
+}
+.effect1
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect1
+{
+	right:0;
+	transform:rotate(20deg);
+}
+.effect2
+{
+	top:0;
+	bottom:0;
+	right:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect2
+{
+	right:0;
+	transform:rotate(40deg);
+}
+.effect3
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect3
+{
+	right:0;
+	transform:rotate(60deg);
+}
+.effect4
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect4
+{
+	right:0;
+	transform:rotate(80deg);
+}
+.effect5
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect5
+{
+	right:0;
+	transform:rotate(100deg);
+}
+.effect6
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect6
+{
+	right:0;
+	transform:rotate(120deg);
+}
+.effect7
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect7
+{
+	right:0;
+	transform:rotate(140deg);
+}
+.effect8
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect8
+{
+	right:0;
+	transform:rotate(160deg);
+}
+.effect9
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect9
+{
+	right:0;
+	transform:rotate(180deg);
+}
+.effect10
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect10
+{
+	right:0;
+	transform:rotate(200deg);
+}
+.effect11
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect11
+{
+	right:0;
+	transform:rotate(220deg);
+}
+.effect12
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect12
+{
+	right:0;
+	transform:rotate(240deg);
+}
+.effect13
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect13
+{
+	right:0;
+	transform:rotate(260deg);
+}
+.effect14
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect14
+{
+	right:0;
+	transform:rotate(280deg);
+}
+.effect15
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect15
+{
+	right:0;
+	transform:rotate(300deg);
+}
+.effect16
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect16
+{
+	right:0;
+	transform:rotate(320deg);
+} 
+.effect17
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect17
+{
+	right:0;
+	transform:rotate(340deg);
+}
+.effect18
+{
+	top:0;
+	bottom:0;
+	left:0;
+	//right:0;
+	transform-origin:bottom left;
+	transform:rotate(0deg);
+}
+.main_img2:hover .effect18
+{
+	right:0;
+	transform:rotate(360deg);
+}
